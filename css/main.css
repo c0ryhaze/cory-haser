@@ -7,10 +7,38 @@ html {
   font-family: 'Helvetica Neue', sans-sarif;
 }
 
+.nav-bar{
+	color: white;
+}
+
+.nav-bar{
+    background rgba: (0,0,0,0);
+    overflow: hidden;
+}
+
+.nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav-bar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
 .profile-box{
 	width: 400px;
-	height: 580px;
-	background: rgba(0,0,0,0.4);
+	height: 1550px;
+	background: rgba(0,0,0,0.3);
 	padding: 35px;
 	color: white;
 	margin: 0 auto;
@@ -47,4 +75,16 @@ p{
 	width: 300px;
 	margin: 0 auto;
 	border-top: 1px solid white;
+}
+
+.course-work{
+	text-align: left;
+}
+
+.social-icons a:hover{
+	color: blue;
+}
+
+a:visited{
+	color: white;
 }
