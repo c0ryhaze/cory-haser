@@ -1,6 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
+
+	<title>Cory Haser</title>
+	<meta charset="utf-8"/>
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -9,26 +13,92 @@
 
 <body>
 
-	<div class ="profile-box">
-		<img src="Images/prof.jpg" class="profile-pic">
+	<div class="nav-bar">
+		<header>
+			<nav>
+					<a href="#profile-box">About</a>
+					<a href="#education">Education</a>
+					<a href="#experience">Experience</a>
+					<a href="#activities">Activities</a>
+					<a href="#social">Social Medias</a>
+			</nav>
+		</header>
+		
+	</div>
+
+	<!-- Main Box Display -->
+	<div class="profile-box" id="profile-box">
+		<img src="Images/prof.jpg" class="profile-pic" alt="profile picture">
 		<h1>Cory Haser</h1>
 		<h5>Computer Science Student | Programmer &amp; Developer</h5>
 		<div class="line-break"></div>
 		<p>
-			Highly motivated and enthusiastic computer science student. Educated in C++, Java, and Python with extensive background in those languages. Technology is constantly advancing and being passionate about what I do, I find free time to learn and practice to constantly improve. With doing so, I have become proficient in C, C#, HTML and CSS.
+			<main role="main">
+				Highly motivated and enthusiastic computer science student. Educated in C++, Java, and Python with extensive background in those languages. Technology is constantly advancing and being passionate about what I do, I find free time to learn and practice to constantly improve. With doing so, I have become proficient in C, C#, HTML and CSS.
+			</main>
 		</p>
 
+		<!-- Education -->
+		<div id="education">
+			<h1>Education</h1>
+			<h5>Butler County Community College | A.S. Computer Science</h5>
+			<div class="line-break"></div>
+			<p>
+				<h5>Related Coursework:</h3>
+				<ul class="course-work">
+					<li>COMP101 | Computer Information Systems</li>
+					<li>COMP210 | Microcomputing</li>
+					<li>COMP211 | Data Communications &amp; Networking</li>
+					<li>COMP215 | PC Management Techniques I</li>
+					<li>COMP229 | Database Systems</li>
+					<li>COMP233 | Data Structures &amp; Algorithms</li>
+					<li>COMP237 | Programming Fundamentals</li>
+					<li>COMP238 | Object Oriented Programming</li>
+				</ul>
+			</p>
+		</div>
+
+		<!-- Experience -->
+		<div id="experience">
+			<h1>Experience</h1>
+			<h5>Butler County Community College | Computer Science Tutor</h5>
+			<h5>January 2018 - Present</h5>
+			<div class="line-break"></div>
+			<p>
+				Tutor students in computer science courses, assisting with homework and related coursework 
+			</p>
+		</div>
+
+		<!-- Activities -->
+		<div id="activities">
+			<h1>Activities</h1>
+			<h5>Riding for the Handicap of Western PA | Volunteer</h5>
+			<h5>2015 - Present</h5>
+			<div class="line-break"></div>
+			<p>
+				Volunteer to assist children with physical and mental disabilities in therapeutic horseback riding 
+			</p>
+		</div>
+
+		<!-- Social Buttons -->
 		<p>
+			<br><br>
+			<h1>Social Medias</h1>
+			<div class="line-break"></div><br><br>
 			Check out my social networks or attached resume!
 		</p>
-
-		<div class="social-icons">
+		<div class="social-icons" id="social">					
 			<a href="http://www.github.com/c0ryhaze" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i></a>
 			<a href="http://www.linkedin.com/in/coryhaser/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
 			<a href="jobResume.docx"><i class="far fa-file"></i></a>
 		</div>
 
 	</div>
+
+	<!-- Footer -->
+	<footer role="contentinfo">
+ 		<small>&copy; Copyright 2018 Cory Haser</small>
+	</footer>
 
 </body>	
 
