@@ -1,5 +1,5 @@
 html { 
-  background: url(../Images/background.jpg) no-repeat center center fixed; 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +37,7 @@ html {
 
 .profile-box{
 	width: 400px;
-	height: 1550px;
+	height: 2400px;
 	background: rgba(0,0,0,0.3);
 	padding: 35px;
 	color: white;
@@ -86,5 +86,9 @@ p{
 }
 
 a:visited{
+	color: white;
+}
+
+.footer{
 	color: white;
 }
