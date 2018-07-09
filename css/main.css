@@ -5,6 +5,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Helvetica Neue', sans-sarif;
+  background-color: black;
 }
 
 .nav-bar{
