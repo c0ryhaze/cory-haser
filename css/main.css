@@ -42,13 +42,15 @@ html {
 
 .profile-box{
 	width: 400px;
-	height: 1000px;
+	height: 600px;
 	background: rgba(0,0,0,0.3);
 	padding: 35px;
 	color: white;
 	margin: 0 auto;
 	margin-top: 40px;
 	text-align: center;
+	overflow: hidden;
+	overflow: scroll;
 	}
 
 .profile-pic{
@@ -96,37 +98,4 @@ a:visited{
 
 .footer{
 	color: white;
-}
-
-.new-tab{
-	width: 400px;
-	height: 1000px;
-	background: rgba(0,0,0,0.3);
-	padding: 35px;
-	color: white;
-	margin: 0 auto;
-	margin-top: 40px;
-	text-align: center;
-}
-
-.new-tab-activities{
-	width: 400px;
-	height: 550px;
-	background: rgba(0,0,0,0.3);
-	padding: 35px;
-	color: white;
-	margin: 0 auto;
-	margin-top: 40px;
-	text-align: center;
-}
-
-.new-tab-education{
-	width: 400px;
-	height: 650px;
-	background: rgba(0,0,0,0.3);
-	padding: 35px;
-	color: white;
-	margin: 0 auto;
-	margin-top: 40px;
-	text-align: center;
 }
