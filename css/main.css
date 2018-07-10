@@ -6,6 +6,7 @@ html {
   background-size: cover;
   font-family: 'Helvetica Neue', sans-sarif;
   background-color: black;
+  overflow: hidden;
 }
 
 .nav-bar{
