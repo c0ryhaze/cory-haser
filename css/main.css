@@ -43,15 +43,14 @@ html {
 
 .profile-box{
 	width: 400px;
-	height: 600px;
+	height: 650px;
 	background: rgba(0,0,0,0.3);
 	padding: 35px;
 	color: white;
 	margin: 0 auto;
 	margin-top: 40px;
 	text-align: center;
-	overflow: hidden;
-	overflow: scroll;
+	overflow-x: scroll;
 	}
 
 .profile-pic{
@@ -99,4 +98,12 @@ a:visited{
 
 .footer{
 	color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+}
+
+::-webkit-scrollbar {
+    display:none;
 }
